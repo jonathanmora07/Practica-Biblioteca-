@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="p-4 bg-light rounded-3 mb-4">
+    <h1>{{ titulo }}</h1>
+    <p class="lead">{{ mensaje }}</p>
+</div>
+
+<h3>Lista de Servicios Disponibles</h3>
+<div class="row mt-3">
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Préstamo de libros</h5>
+                <p class="card-text">Préstamo a domicilio e interbibliotecario para la comunidad universitaria activa con credencial vigente.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Consulta en sala</h5>
+                <p class="card-text">Espacios idóneos y silenciosos equipados para la lectura, el estudio individual y la revisión del acervo físico.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Acceso a recursos digitales</h5>
+                <p class="card-text">Acceso a internet dentro del recinto y conexión remota a las colecciones electrónicas mediante cuenta institucional.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Orientación bibliográfica</h5>
+                <p class="card-text">Asesoría personalizada por parte del personal bibliotecario para la búsqueda avanzada de información e investigación.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

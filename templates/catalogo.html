@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="p-4 bg-light rounded-3 mb-4">
+    <h1>{{ titulo }}</h1>
+    <p class="lead">{{ mensaje }}</p>
+</div>
+
+<h3>Categorías de Materiales Disponibles</h3>
+<ul class="list-group mt-3">
+    <li class="list-group-item">
+        <strong>Libros:</strong> Colecciones de bibliografía básica y complementaria para todos los planes de estudio académicos, textos literarios y obras de consulta.
+    </li>
+    <li class="list-group-item">
+        <strong>Revistas:</strong> Publicaciones periódicas de divulgación científica, boletines informativos y revistas académicas impresas y electrónicas.
+    </li>
+    <li class="list-group-item">
+        <strong>Tesis:</strong> Trabajos recepcionales, proyectos de grado y tesis de licenciatura, maestría y doctorado elaboradas por nuestros egresados.
+    </li>
+    <li class="list-group-item">
+        <strong>Recursos Digitales:</strong> Acceso a bases de datos especializadas, libros electrónicos (e-books) y repositorios institucionales de acceso abierto.
+    </li>
+</ul>
+{% endblock %} 
